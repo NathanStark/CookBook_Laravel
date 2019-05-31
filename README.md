@@ -1,3 +1,4 @@
-# My Awesome Book
+# Предисловие
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+**01.04.18** - Приступил к плотному осваению Laravel.
+
