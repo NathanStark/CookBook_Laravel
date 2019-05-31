@@ -5,8 +5,10 @@
 
   * [Установка работа с Homestand](/nachalo/install.md)
   * [Описание файловой структуры](/nachalo/structur.md)
+  * [Env](/nachalo/env.md)
 
 * [Laravel](/laravel/README.md)
+
   * [App](/laravel/app/README.md)
     * [Http](/laravel/app/Http/README.md)
       * [Controllers](/laravel/app/Http/Controllers/README.md)
@@ -18,6 +20,7 @@
     * [views](/laravel/resources/views/README.md)
       * [blade](/laravel/resources/views/blade.md)
   * [routes](/laravel/routes/README.md)
+
 * [Аутентификация/Авторизация/Права](/auth.md)
 
 * [Работа в консоли](/console.md)
@@ -35,7 +38,9 @@
 * [Прием/обработка запросов](/request.md)
 
 * [Работа с сессиями](/session.md)
+
 * [Валидация данных](/validate.md)
+
 * [Заметки](/notes.md)
 
 
