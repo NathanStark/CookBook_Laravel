@@ -41,7 +41,7 @@ Route::get('/news/{section}/{id?}',function($sect,$id=null){
 })->where('id','[0-9]+');
 ```
 
-Что бы применить фильтрацию для параметра для всех маршрутов, те глобально, необходимо написать регулярное выражения в **сервис-првоайдере Route**, в **методе boot.                        
+Что бы применить фильтрацию для параметра для всех маршрутов, те глобально, необходимо написать регулярное выражения в **сервис-првоайдере Route**, в **методе boot.                          
 **Открываем файл **app/Providers/RouteServiceProvider.php**, в методе **boot** добавляем:
 
 ```
@@ -97,6 +97,8 @@ Route::get('/',function () {
 ```
 Route::controller('/news','FistController',['getNews'=>'get.news']);
 ```
+
+[Видео](https://youtu.be/2YvwC6F8ysc?t=1122)
 
 ```
 Route::controller('/news',['uses'=>'FistController','as'=>'news']);
