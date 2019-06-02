@@ -225,7 +225,6 @@ Route::get('/news/','Auth\LoginController@show')->name('news')->middleware('test
 Для передачи параметра в просредника, после его название ставятся **":"**
 
 ```
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -238,13 +237,11 @@ Route::get('/news/','Auth\LoginController@show')->name('news')->middleware('test
 */
 
 Route::get('/newss/{id}',['as'=>'news','uses'=>'FistController@show',"middleware" => "test:home"]);
-
 ```
 
 В самом посреднике третим входящим параметром указываем входяшие параметры
 
 ```
-
 namespace App\Http\Middleware;
 
 use Closure;
