@@ -21,5 +21,3 @@
 [Видео](https://youtu.be/3cGtvwbf29g)
 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IfJ_DKou3YE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
