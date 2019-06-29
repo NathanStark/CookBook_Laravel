@@ -59,5 +59,11 @@ databases:
 
 1. В папке **code** вводим команду "**composer create-project --prefer-dist laravel/laravel ./" .**Тем самым создаем проект в текущем каталоге, если надо указать другой каталог, то в конце дописываем путь. К примеру **composer create-project --prefer-dist laravel/laravel NewFolder/blog**
 
+### Вариант установки №4 \(Новый прокет в phpstrom\)
+
+1. Выбраем создать новый проект
+2. Указываем что через composer
+3. Указываем путь и указываем пакет **laravel/laravel**
+
 
 
