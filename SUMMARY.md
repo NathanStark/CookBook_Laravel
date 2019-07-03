@@ -1,6 +1,7 @@
 # Summary
 
 * [Предисловие](/README.md)
+* [Bitrix ENV + Laravel](bitrix-env-+-laravel.md)
 * [Начало](/nachalo/README.md)
   * [Установка работа с Homestand](/nachalo/install.md)
   * [Описание файловой структуры](/nachalo/structur.md)
@@ -28,5 +29,5 @@
 * [Прием/обработка запросов](/request.md)
 * [Работа с сессиями](/session.md)
 * [Валидация данных](/validate.md)
-* [Заметки](/notes.md)
+* Bitrix ENV + Laravel
 
