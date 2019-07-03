@@ -33,5 +33,11 @@ add_header X-Frame-Options '';
 /etc/nginx/bx/site_enabled/bx_ext_dev.ttp.starlabs.su.conf
 ```
 
-И этот же параметр добавить для ssl настройки
+И этот же параметр добавить для ssl настройки, это файл
+
+```
+/etc/nginx/bx/site_enabled/bx_ext_ssl_dev.ttp.starlabs.su.conf
+```
+
+
 
