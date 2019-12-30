@@ -3,3 +3,4 @@ gitbook/docs/.idea
 gitbook/package-lock.json
 
 .idea
+/docs/.gitignore
