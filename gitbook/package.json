@@ -1,0 +1,14 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "Документация по фреймворку Laravel для начинающего",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "./node_modules/.bin/gitbook build ./laravel ../docs/"
+  },
+  "author": "Nathan Stark <git@starlabs.su>",
+  "license": "ISC"
+}

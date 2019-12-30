@@ -1,0 +1,5 @@
+gitbook/node_modules
+gitbook/docs/.idea
+gitbook/package-lock.json
+
+.idea
