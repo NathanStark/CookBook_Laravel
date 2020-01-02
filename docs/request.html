@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="session.html" />
+    <link rel="next" href="response.html" />
     
     
-    <link rel="prev" href="providers/fasad.html" />
+    <link rel="prev" href="laravel/routes/" />
     
 
     </head>
@@ -352,7 +352,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="auth.html">
+        <li class="chapter active" data-level="1.4" data-path="request.html">
+            
+                <a href="request.html">
+            
+                    
+                    Прием/обработка запросов
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="response.html">
+            
+                <a href="response.html">
+            
+                    
+                    Отправка ответа на запрос
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="auth.html">
             
                 <a href="auth.html">
             
@@ -365,7 +391,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="console.html">
+        <li class="chapter " data-level="1.7" data-path="console.html">
             
                 <a href="console.html">
             
@@ -378,7 +404,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="constracts.html">
+        <li class="chapter " data-level="1.8" data-path="constracts.html">
             
                 <a href="constracts.html">
             
@@ -391,7 +417,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="db.html">
+        <li class="chapter " data-level="1.9" data-path="db.html">
             
                 <a href="db.html">
             
@@ -404,7 +430,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="events.html">
+        <li class="chapter " data-level="1.10" data-path="events.html">
             
                 <a href="events.html">
             
@@ -417,7 +443,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="localization.html">
+        <li class="chapter " data-level="1.11" data-path="localization.html">
             
                 <a href="localization.html">
             
@@ -430,7 +456,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10" data-path="providers.html">
+        <li class="chapter " data-level="1.12" data-path="providers.html">
             
                 <a href="providers.html">
             
@@ -444,7 +470,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.10.1" data-path="providers/fasad.html">
+        <li class="chapter " data-level="1.12.1" data-path="providers/fasad.html">
             
                 <a href="providers/fasad.html">
             
@@ -462,20 +488,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.11" data-path="request.html">
-            
-                <a href="request.html">
-            
-                    
-                    Прием/обработка запросов
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.12" data-path="session.html">
+        <li class="chapter " data-level="1.13" data-path="session.html">
             
                 <a href="session.html">
             
@@ -488,7 +501,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13" data-path="validate.html">
+        <li class="chapter " data-level="1.14" data-path="validate.html">
             
                 <a href="validate.html">
             
@@ -501,7 +514,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.14" data-path="notes.html">
+        <li class="chapter " data-level="1.15" data-path="notes.html">
             
                 <a href="notes.html">
             
@@ -559,9 +572,65 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x43F;&#x440;&#x438;&#x435;&#x43C;&#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430;-&#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432;-&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;-&#x43A;&#x43B;&#x430;&#x441;&#x441;-request">&#x41F;&#x440;&#x438;&#x435;&#x43C;/&#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;, &#x43A;&#x43B;&#x430;&#x441;&#x441; Request</h1>
-<p><a href="https://youtu.be/IfJ_DKou3YE" target="_blank">&#x412;&#x438;&#x434;&#x435;&#x43E;</a></p>
-<h1 id="&#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x430;-&#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;">&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;</h1>
+                                <h1 id="&#x443;&#x440;&#x43E;&#x43A;-&#x2116;14"><a href="https://youtu.be/IfJ_DKou3YE" target="_blank">&#x423;&#x440;&#x43E;&#x43A; &#x2116;14</a></h1>
+<h2 id="&#x43F;&#x440;&#x438;&#x435;&#x43C;&#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430;-&#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432;-&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;-&#x43A;&#x43B;&#x430;&#x441;&#x441;-request">&#x41F;&#x440;&#x438;&#x435;&#x43C;/&#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44F;, &#x43A;&#x43B;&#x430;&#x441;&#x441; Request</h2>
+<h3 id="&#x43F;&#x440;&#x43E;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;-&#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E;-&#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;">&#x41F;&#x440;&#x43E;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;</h3>
+<p>&#x414;&#x43B;&#x44F; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442; &#x432;&#x43D;&#x435;&#x434;&#x440;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438;.</p>
+<p>&#x414;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x435;&#x440;&#x430; (&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x435; &#x43A;&#x430;&#x43A; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x442;&#x443;&#x442;) &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x442;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; Request &#x441; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x435;&#x433;&#x43E; &#x442;&#x438;&#x43F;&#x430;.</p>
+<pre><code>namespace App\Http\Controller\Admin;
+use Illuminate\Http\Request;
+use App\Http\Request;
+use App\Http\Controllers\Controller;
+
+
+class ContactController extends Controller
+{
+    public function show(Request $Request)
+    {
+
+    }
+}
+</code></pre><p>&#x41A;&#x43E;&#x433;&#x434;&#x430; Laravel &#x431;&#x443;&#x434;&#x435;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430;, &#x438;&#x437; &#x437;&#x430; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x43E;&#x439; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438;, &#x43E;&#x43D; &#x442;&#x430;&#x43A; &#x436;&#x435; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x431;&#x443;&#x434;&#x435;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x43D; &#x432; &#x43C;&#x435;&#x442;&#x43E;&#x434; show.</p>
+<p><strong>&#x415;&#x441;&#x43B;&#x438; &#x432; &#x43C;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;</strong>, &#x432; &#x442;&#x430;&#x43A;&#x43E;&#x43C; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x438; &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x435;&#x43C;&#x44B; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x435;&#x440;&#x43E;&#x43C; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;, &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x443;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; Request. &#x421;&#x430;&#x43C; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; &#x443;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x43C; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x43C;.</p>
+<pre><code>//&#x41C;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;
+Route::get(&apos;/contact/{id?}&apos;,[&apos;uses&apos;=&gt;Admin\ContactController@show]);
+</code></pre><pre><code>namespace App\Http\Controller\Admin;
+use Illuminate\Http\Request;
+use App\Http\Request;
+use App\Http\Controllers\Controller;
+
+
+class ContactController extends Controller
+{
+    public function show(Request $Request,$id)
+    {
+
+    }
+}
+</code></pre><h3 id="&#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;-request">&#x41C;&#x435;&#x442;&#x43E;&#x434;&#x44B; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; Request</h3>
+<p><strong>input</strong> - &#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43F;&#x435;&#x440;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430;, &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x43C; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x430; html, &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x433;&#x43E; &#x445;&#x43E;&#x442;&#x438;&#x43C; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C;. &#x412;&#x43E; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;, &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x442;&#x44C; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;</p>
+<pre><code>$Request-&gt;input(&apos;name&apos;);
+</code></pre><p>&#x414;&#x43B;&#x44F; &#x43C;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x43D;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x430;&#x442;&#x440;&#x442;&#x431;&#x443;&#x442;&#x430;, &#x43D;&#x435; &#x43E;&#x431;&#x44F;&#x445;&#x430;&#x442;&#x435;&#x44C;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43C;&#x435;&#x442;&#x43E;&#x434; input, &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x443; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x430; Request &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x438;&#x439; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x44E; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x430;</p>
+<pre><code>$Request-&gt;name;
+</code></pre><p>&#x412; &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; Request &#x43F;&#x43E;&#x43F;&#x430;&#x434;&#x430;&#x44E;&#x442; &#x43D;&#x435; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x43E;&#x432; &#x43D;&#x43E; &#x438; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;. &#x415;&#x441;&#x43B;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x442;&#x435;&#x441;&#x44F; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442; &#x432; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x435; &#x438; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x438; &#x43E;&#x43D;&#x438; &#x438;&#x43C;&#x435;&#x44E;&#x442; &#x43E;&#x434;&#x438;&#x43D;&#x430;&#x43A;&#x43E;&#x432;&#x43E;&#x435; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435;, &#x432; &#x442;&#x430;&#x43A;&#x43E;&#x43C; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x438; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x430;, &#x43D;&#x43E; &#x435;&#x441;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x430; &#x43F;&#x443;&#x441;&#x442;&#x43E;&#x435; &#x430; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442;, &#x432; &#x442;&#x430;&#x43A;&#x43E;&#x43C; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x438; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x433;&#x43E; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430;. (<a href="https://youtu.be/IfJ_DKou3YE?t=1670" target="_blank">&#x412;&#x438;&#x434;&#x435;&#x43E;</a>)</p>
+<h4 id="&#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;">&#x41C;&#x435;&#x442;&#x43E;&#x434;&#x44B;</h4>
+<p><strong>has</strong> - &#x412;&#x435;&#x440;&#x43D;&#x435;&#x442; <strong>True</strong>, &#x435;&#x441;&#x43B;&#x438; &#x434;&#x430;&#x43D;&#x44B;&#x439; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442; &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x438; &#x43E;&#x43D; &#x43D;&#x435; &#x43F;&#x443;&#x441;&#x442;&#x43E;&#x439;.</p>
+<p><strong>exists</strong> - &#x41E;&#x442;&#x43B;&#x438;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x442; has, &#x442;&#x435;&#x43C; &#x447;&#x442;&#x43E; &#x43D;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442; &#x43D;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x442;&#x443;&#x441;&#x442;&#x432;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x432; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x43C; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x435;.</p>
+<p><strong>all</strong> - &#x41E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x438;&#x43C; &#x432;&#x441;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x443;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x432; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x435; &#x432; &#x432;&#x432;&#x438;&#x434;&#x435; &#x43C;&#x430;&#x441;&#x441;&#x438;&#x432;&#x430;.</p>
+<p><strong>only</strong> - &#x423;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;, &#x43A;&#x430;&#x43A;&#x438;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x432;&#x44B;&#x432;&#x435;&#x441;&#x442;&#x438; &#x432;&#x432;&#x438;&#x434;&#x435; &#x43C;&#x430;&#x441;&#x441;&#x438;&#x432;&#x430;</p>
+<p><strong>except</strong> - &#x41F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; <strong>only</strong>, &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x44B;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x43D;&#x435; &#x431;&#x443;&#x434;&#x443;&#x442; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x43C;&#x430;&#x441;&#x441;&#x438;&#x432;&#x435;.</p>
+<p><strong>path</strong> - &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; URI &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;.</p>
+<p><strong>is</strong> - &#x41F;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x435;&#x442; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;, &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x43B;&#x438; &#x43E;&#x43D; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x43C;&#x443; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x443; (&#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430;)</p>
+<p><strong>url</strong> - &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x43F;&#x43E;&#x43B;&#x43D;&#x44B;&#x439; &#x43F;&#x443;&#x442;&#x44C; &#x432; &#x430;&#x434;&#x440;&#x435;&#x441;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x435;, &#x431;&#x435;&#x437; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x44F; <strong>get</strong> &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432;.</p>
+<p><strong>fullUrl</strong> - &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x43F;&#x43E;&#x43B;&#x43D;&#x44B;&#x439; &#x43F;&#x443;&#x442;&#x44C; &#x432;&#x43C;&#x435;&#x441;&#x442;&#x435; &#x441; &#x43F;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x438;&#x43C;&#x438; get &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430;&#x43C;&#x438;.</p>
+<p><strong>method</strong> - &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x442;&#x438;&#x43F;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x43C; &#x431;&#x44B;&#x43B;&#x438; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x44B; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; (get,post,pull,delete...)</p>
+<p><strong>isMethod</strong> - &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x438;&#x441;&#x442;&#x438;&#x43D;&#x443;, &#x435;&#x441;&#x43B;&#x438; &#x442;&#x438;&#x43F;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;, &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x44E; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x43C; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x43C; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430;.</p>
+<p><strong>flash</strong> - &#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x44F;&#x435;&#x442; &#x432;&#x441;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x43D;&#x44B;&#x435; &#x432; &#x442;&#x435;&#x43B;&#x435; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430; &#x432; &#x441;&#x435;&#x441;&#x441;&#x438;&#x44E;. <a href="https://youtu.be/IfJ_DKou3YE?t=2255" target="_blank">&#x412;&#x438;&#x434;&#x435;&#x43E;</a></p>
+<p><strong>flush</strong> - &#x41E;&#x447;&#x438;&#x449;&#x430;&#x435;&#x442; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432; &#x441;&#x435;&#x441;&#x441;&#x438;&#x438;.</p>
+<p><strong>old</strong> - &#x420;&#x430;&#x43D;&#x435;&#x435; &#x441;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x432; &#x441;&#x435;&#x441;&#x441;&#x438;&#x44E; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435;.</p>
+<p><strong>flashOnly</strong> - &#x41F;&#x435;&#x440;&#x435;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x435;&#x442;, &#x43A;&#x430;&#x43A;&#x438;&#x435; &#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;&#x44B; &#x43D;&#x430;&#x434;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x432; &#x441;&#x435;&#x441;&#x441;&#x438;&#x44E;.</p>
+<p><strong>flashExcept</strong> - &#x41F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x43D;&#x44B;&#x439; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x443; flashOnly.</p>
+<h3 id="&#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x430;-&#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;">&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x430;</h3>
 <p><a href="https://youtu.be/EGEDt2X1aFE" target="_blank">&#x412;&#x438;&#x434;&#x435;&#x43E;</a></p>
 <p><a href="https://youtu.be/EGEDt2X1aFE" target="_blank">&#x412;&#x438;&#x434;&#x435;&#x43E;</a></p>
 
@@ -591,12 +660,12 @@
 
             
                 
-                <a href="providers/fasad.html" class="navigation navigation-prev " aria-label="Previous page: Фасад">
+                <a href="laravel/routes/" class="navigation navigation-prev " aria-label="Previous page: routes">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="session.html" class="navigation navigation-next " aria-label="Next page: Работа с сессиями">
+                <a href="response.html" class="navigation navigation-next " aria-label="Next page: Отправка ответа на запрос">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -607,7 +676,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Прием/обработка запросов","level":"1.11","depth":1,"next":{"title":"Работа с сессиями","level":"1.12","depth":1,"path":"session.md","ref":"session.md","articles":[]},"previous":{"title":"Фасад","level":"1.10.1","depth":2,"path":"providers/fasad.md","ref":"providers/fasad.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"request.md","mtime":"2019-12-30T04:02:21.740Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-30T04:16:58.328Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Прием/обработка запросов","level":"1.4","depth":1,"next":{"title":"Отправка ответа на запрос","level":"1.5","depth":1,"path":"response.md","ref":"response.md","articles":[]},"previous":{"title":"routes","level":"1.3.4","depth":2,"path":"laravel/routes/README.md","ref":"laravel/routes/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"request.md","mtime":"2020-01-02T12:01:47.812Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-02T12:05:32.136Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
